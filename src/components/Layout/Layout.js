@@ -2,10 +2,12 @@ import { useRootContext } from "@/context/context";
 import useScroll from "@/hooks/useScroll";
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
 import Header from "../Header/Header";
 import Preloader from "../Preloader/Preloader";
 import SiteFooter from "../SiteFooter/SiteFooter";
+import FloatingWhatsApp from 'react-floating-whatsapp'
 
 const Layout = ({ children, pageTitle }) => {
   const [loading, setLoading] = useState(true);
@@ -37,21 +39,21 @@ const Layout = ({ children, pageTitle }) => {
         <Header pageTitle={pageTitle} />
         {children}
         <SiteFooter />
+        <FloatingWhatsApp
+        phoneNumber="529982421057"
+        accountName="CENTRO IXOYE"
+        allowClickAway
+        notification
+        statusMessage="Servicios y Refacciones"
+        avatar="/favicon.png"
+        notificationDelay={30000} // 1 minute
+        notificationSound
+        placeholder="Escribe tu mensaje"
+        chatMessage='Hola!!! 🤝 Que tipo de refaccion o servicio necesitas?'
+         />
       </main>
-      {scrollTop && (
-        <ScrollLink
-          to="wrapper"
-          smooth={true}
-          duration={500}
-          id="backToTop"
-          style={{ cursor: "pointer" }}
-          className="scroll-to-target scroll-to-top d-inline-block fadeIn animated"
-        >
-          <i className="fa fa-angle-up"></i>
-        </ScrollLink>
-      )}
-    </>
-  );
-};
+      
+ </>     
+)};
 
 export default Layout;

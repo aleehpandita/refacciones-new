@@ -411,11 +411,12 @@ hr.style-one {
 .header-one__btn {
   display: inline-block;
   vertical-align: middle;
-  color: #ff8257;
-  font-size: 16px;
+  background-color: #ff8257;
+  color: white;
+  font-size: 30px;
   font-weight: 600;
   line-height: 1em;
-  padding: 19px 49px;
+  padding: 9px 19px;
   border-radius: 27px;
   transition: all 0.4s ease;
   box-shadow: 0px 10px 30px 0px rgba(212, 212, 212, 0.3);
@@ -491,7 +492,6 @@ hr.style-one {
     no-repeat;
   background-size: cover;
   padding-top: 25px;
-  padding-bottom: 37px;
   position: relative;
 }
 .banner-one [class*="bubble-"] {
@@ -1632,6 +1632,29 @@ hr.style-one {
 }
 .brand-carousel-one .owl-dots,
 .brand-carousel-one .owl-nav {
+  display: none;
+}
+
+/* brand TWO */
+
+.brand-carousel-two {
+  padding-top: 5.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.brand-carousel-two .item img {
+  width: auto;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+  transition: all 0.1s ease;
+}
+.brand-carousel-two .item img:hover {
+  opacity: 0.6;
+}
+.brand-carousel-two .owl-dots,
+.brand-carousel-two .owl-nav {
   display: none;
 }
 

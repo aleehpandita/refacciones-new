@@ -1,6 +1,7 @@
 import BannerOne from "@/components/BannerOne/BannerOne";
 import BlogOne from "@/components/BlogOne/BlogOne";
 import BrandOne from "@/components/BrandOne/BrandOne";
+import BrandTwo from "@/components/BrandOne/brandTwo";
 import CtaOne from "@/components/CtaOne/CtaOne";
 import CtaThree from "@/components/CtaThree/CtaThree";
 import CtaTwo from "@/components/CtaTwo/CtaTwo";
@@ -16,6 +17,7 @@ const Home = () => {
   return (
     <Layout pageTitle="Refacciones">
       <BrandOne />
+      <BrandTwo />
       <BannerOne bannerData={bannerOne} />
       <BrandOne />
       <ServiceOne />

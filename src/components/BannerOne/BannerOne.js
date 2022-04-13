@@ -1,6 +1,7 @@
 import useActive from "@/hooks/useActive";
 import React, { Fragment } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
+import whatsappLaundry from "@/data/whatsappLaundry";
 
 const BannerOne = ({ bannerData = {}, className = "" }) => {
   const { bannerIcons, bannerMoc, title, description } = bannerData;
@@ -43,8 +44,8 @@ const BannerOne = ({ bannerData = {}, className = "" }) => {
                   </span>
                 ))}
               </p>
-              <a href="#" className="banner-one__btn">
-                Mandanos un Whatsapp
+              <a href={whatsappLaundry.href} className="banner-one__btn">
+              <i className="fa fa-whatsapp"> </i>  Mandanos un Whatsapp
               </a>
             </div>
           </Col>

@@ -6,7 +6,7 @@ const navbarData = {
   logo,
   logo2,
   rightBtn: {
-    title: "Whatsapp",
+    title: ``,
     href: `${whatsappLaundry.href}`,
   },
   navItems: [

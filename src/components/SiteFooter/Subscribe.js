@@ -21,7 +21,7 @@ const Subscribe = () => {
         </div>
         <form onSubmit={handleSubmit} className="site-footer__subscribe-form">
           <input type="text" name="email" placeholder="CENTRO IXOYE DE SERVICIOS Y REFACCIONES" disabled />
-          <button type="submit">WHATSAPP</button>
+          <button type="submit"> <i className="fa fa-whatsapp"></i> WHATSAPP</button>
         </form>
       </Container>
     </div>
