@@ -24,7 +24,7 @@ const BannerOne = ({ bannerData = {}, className = "" }) => {
       />
       <Container>
         <Row>
-          <Col lg={6}>
+          <Col lg={5} md={8}>
             <div className="banner-one__content">
               <div className="block-title">
                 <div className="block-title__text">
@@ -35,15 +35,16 @@ const BannerOne = ({ bannerData = {}, className = "" }) => {
                   ))}
                 </div>
               </div>
-              <p className="banner-one__text">
+              <br/>
+              <p className="banner-one__text text-justify">
                 {description.split("\n").map((t, i) => (
-                  <span className="d-block" key={i}>
+                  <span className="d-block text-justify" key={i}>
                     {t}
                   </span>
                 ))}
               </p>
               <a href="#" className="banner-one__btn">
-                Get Started
+                Mandanos un Whatsapp
               </a>
             </div>
           </Col>

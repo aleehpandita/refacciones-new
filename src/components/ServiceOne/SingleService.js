@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
-import { Col } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
+import whatsappLaundry from "@/data/whatsappLaundry";
 
 const SingleService = ({ service = {} }) => {
   const { title, description, icon } = service;
@@ -7,7 +8,9 @@ const SingleService = ({ service = {} }) => {
   return (
     <Col xl={3} lg={6} md={6} sm={12}>
       <div className="service-one__single">
-        <i className={`service-one__icon ${icon}`}></i>
+      <a href={whatsappLaundry.href} >
+      <Image src={require(`src/assets/images/${icon}`).default.src} />
+        {/* <i className={`service-one__icon ${icon}`}></i> */}
         <h3 className="service-one__title">
           <a href="#">
             {title.split("\n").map((t, i) => (
@@ -24,8 +27,8 @@ const SingleService = ({ service = {} }) => {
             </Fragment>
           ))}
         </p>
-        <a href="#" className="service-one__link">
-          <i className="nonid-icon-left-arrow"></i>
+        
+          <i className="nonid-icon-left-arrow service-one__link" ></i>
         </a>
       </div>
     </Col>

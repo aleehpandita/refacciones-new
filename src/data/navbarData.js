@@ -5,59 +5,64 @@ const navbarData = {
   logo,
   logo2,
   rightBtn: {
-    title: "Contact",
+    title: "Whatsapp",
     href: "#",
   },
   navItems: [
     {
       id: 1,
-      title: "Home",
+      title: "Inicio",
       href: "#home",
-      subItems: [
-        {
-          id: 1,
-          title: "Home One",
-          href: "/",
-        },
-        {
-          id: 2,
-          title: "Home Two",
-          href: "/home2",
-        },
-      ],
+      // subItems: [
+      //   {
+      //     id: 1,
+      //     title: "Home One",
+      //     href: "/",
+      //   },
+      //   {
+      //     id: 2,
+      //     title: "Home Two",
+      //     href: "/home2",
+      //   },
+      // ],
     },
     {
       id: 2,
-      title: "Features",
+      title: "Venta",
       href: "#services",
     },
     {
       id: 3,
-      title: "App Screens",
+      title: "Servicios",
       href: "#screens",
     },
     {
       id: 4,
-      title: "Pricing",
+      title: "Marcas",
       href: "#pricing",
     },
     {
-      id: 5,
-      title: "Blog",
-      href: "#blog",
-      subItems: [
-        {
-          id: 1,
-          title: "Blog Style 01",
-          href: "/blog",
-        },
-        {
-          id: 2,
-          title: "Blog Details",
-          href: "/blog-details",
-        },
-      ],
+      id: 4,
+      title: "Manda un Whatsapp",
+      href: "#",
     },
+    // {
+    //   id: 5,
+    //   title: "Marcas",
+    //   href: "#blog",
+    //   subItems: [
+    //     {
+    //       id: 1,
+    //       title: "Blog Style 01",
+    //       href: "/blog",
+    //     },
+    //     {
+    //       id: 2,
+    //       title: "Blog Details",
+    //       href: "/blog-details",
+    //     },
+    //   ],
+    // },
   ],
 };
 

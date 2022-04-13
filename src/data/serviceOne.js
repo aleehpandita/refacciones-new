@@ -1,32 +1,32 @@
 const serviceOne = [
   {
     id: 1,
-    title: "Speed \n Optimization",
-    icon: "nonid-icon-laptop",
+    title: "Refacciones \n Lavadora",
+    icon: "lava1.png",
     description:
       "Lorem ipsum is are \n many variations of \n pass of majority.",
   },
   {
     id: 2,
-    title: "Marketing \n Analysis",
-    icon: "nonid-icon-presentation",
+    title: "Refacciones \n Secadora",
+    icon: "lava2.png",
     description:
       "Lorem ipsum is are \n many variations of \n pass of majority.",
   },
   {
     id: 3,
-    title: "SEO and \n Backlinks",
-    icon: "nonid-icon-target",
+    title: "Refacciones \n Lavasecadora",
+    icon: "lava3.png",
     description:
       "Lorem ipsum is are \n many variations of \n pass of majority.",
   },
   {
     id: 4,
-    title: "Content \n Marketing",
-    icon: "nonid-icon-visualization",
+    title: "Refacciones Centro\n de Lavado",
+    icon: "lava4.png",
     description:
-      "Lorem ipsum is are \n many variations of \n pass of majority.",
-  },
+      "Lorem ipsum is are \n many variations of",
+  }
 ];
 
 export default serviceOne;

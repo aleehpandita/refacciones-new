@@ -1,9 +1,9 @@
 import bannerMoc from "@/images/banner-moc-1.png";
 
-const bannerOne = {
+const whatsappLaundry = {
   title: "IXOYE CENTRO \nDE SERVICIOS \nY REFACCIONES",
-  description:
-    "Si necesitas refacciones originales para arreglar tu Lavadora o tu Secadora, en IXOYE somos expertos en marcas como LG, Smasung, Midea, Hisense, IEM, Maytag, Mabe, Easy, Whirlpool y más.",
+  href:
+    "https://api.whatsapp.com/send?phone=529982421057&text=Hola!%20estoy%20interesado%20en%20la%20venta%20de%20refacciones%20de%Lavadoras%20y%20Secadoras",
   bannerIcons: [
     "banner-icon-1-1.png",
     "banner-icon-1-3.png",
@@ -15,4 +15,4 @@ const bannerOne = {
   bannerMoc,
 };
 
-export default bannerOne;
+export default whatsappLaundry;

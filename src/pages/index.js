@@ -14,15 +14,17 @@ import React from "react";
 
 const Home = () => {
   return (
-    <Layout pageTitle="Home One">
+    <Layout pageTitle="Refacciones">
+      <BrandOne />
       <BannerOne bannerData={bannerOne} />
+      <BrandOne />
       <ServiceOne />
       <CtaThree />
       <CtaTwo />
       <CtaOne />
       <PricingOne />
       <TestimonialOne />
-      <BrandOne />
+      
       <FunFactOne />
       <BlogOne />
     </Layout>

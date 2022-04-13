@@ -15,7 +15,7 @@ const Header = ({ pageTitle }) => {
   return (
     <header
       className={`site-header header-one${
-        pageTitle === "Home One" ? "" : " header-one__home-two"
+        pageTitle === "Refacciones" ? "" : " header-one__home-two"
       }`}
     >
       <Navbar
@@ -32,9 +32,9 @@ const Header = ({ pageTitle }) => {
             <Link href="/" passHref>
               <Navbar.Brand>
                 <Image
-                  src={pageTitle === "Home One" ? logo.src : logo2.src}
+                  src={pageTitle === "Refacciones" ? logo.src : logo2.src}
                   className="main-logo"
-                  alt="Awesome Image"
+                  alt="refacciones"
                 />
               </Navbar.Brand>
             </Link>
@@ -56,11 +56,11 @@ const Header = ({ pageTitle }) => {
               ))}
             </ul>
           </div>
-          <div className="right-side-box">
+          {/* <div className="right-side-box">
             <a href={rightBtn.href} className="header-one__btn">
               {rightBtn.title}
             </a>
-          </div>
+          </div> */}
         </Container>
       </Navbar>
     </header>

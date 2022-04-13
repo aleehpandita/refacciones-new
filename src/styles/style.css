@@ -490,8 +490,8 @@ hr.style-one {
   background: transparent url(../assets/images/banner-bg-1-1.png) right top
     no-repeat;
   background-size: cover;
-  padding-top: 315px;
-  padding-bottom: 147px;
+  padding-top: 25px;
+  padding-bottom: 37px;
   position: relative;
 }
 .banner-one [class*="bubble-"] {
@@ -534,7 +534,7 @@ hr.style-one {
 }
 .banner-one__moc {
   position: absolute;
-  top: 245px;
+  top: 115px;
   right: 0;
 }
 .banner-one .block-title {
@@ -860,7 +860,7 @@ hr.style-one {
 * 6. blog styles
 */
 .blog-one {
-  padding-top: 190px;
+  padding-top: 40px;
   padding-bottom: 90px;
   background: transparent url(../assets/images/blog-bg-1-1.png) center center
     no-repeat;
@@ -1606,26 +1606,26 @@ hr.style-one {
   perspective: 400px;
 }
 .brand-style-one .bubble-1 {
-  top: 15%;
-  left: 18%;
+  top: 10%;
+  left: 10%;
 }
 .brand-style-one .bubble-2 {
-  top: 30%;
-  right: 20%;
+  top: 20%;
+  right: 10%;
 }
 
 .brand-carousel-one {
-  padding: 119.5px 0;
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-top: 75.5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .brand-carousel-one .item img {
   width: auto;
   max-width: none;
   margin-left: auto;
   margin-right: auto;
-  opacity: 0.3;
-  transition: all 0.4s ease;
+  opacity: 0.9;
+  transition: all 0.1s ease;
 }
 .brand-carousel-one .item img:hover {
   opacity: 0.6;
@@ -2031,8 +2031,8 @@ hr.style-one {
   background: transparent url(../assets/images/cta-bg-1-1.png) center center
     no-repeat;
   background-size: cover;
-  padding-top: 205px;
-  padding-bottom: 195px;
+  padding-top: 85px;
+  padding-bottom: 105px;
 }
 .cta-one__image-wrap {
   padding-right: 70px;
@@ -2140,7 +2140,7 @@ hr.style-one {
 
 .cta-two {
   position: relative;
-  padding-bottom: 120px;
+  padding-bottom: 90px;
 }
 .cta-two [class*="bubble-"] {
   position: absolute;
@@ -2250,8 +2250,8 @@ hr.style-one {
   background: transparent url(../assets/images/cta-bg-1-2.png) bottom center
     no-repeat;
   background-size: cover;
-  padding-bottom: 220px;
-  padding-top: 382px;
+  padding-bottom: 120px;
+  padding-top: 182px;
   position: relative;
 }
 .cta-three [class*="bubble-"] {

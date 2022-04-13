@@ -34,14 +34,14 @@ const footerData = {
   bannerIcons,
   logo,
   year: new Date().getFullYear(),
-  website: "Nonid",
-  phone: "888 999 0000",
-  email: "needhelp@nonid.com",
-  address: "855 road, broklyn street \n new york 600",
+  website: "Refacciones y Servicios IXOYE",
+  phone: "998 242 1057",
+  email: "gpo.ixoye@gmail.com",
+  address: "Av Xcaret, Mz. 2 Lote 2-03 \nPlaza Las Palmas Local A-1 y A-2, \n Supermanzana 36, 77505 \n Cancún, Q.R.",
   navItems: [
     {
       id: 1,
-      title: "About",
+      title: "Nosotros",
       href: "#",
     },
     {

@@ -11,7 +11,7 @@ const settings = {
   lazyload: true,
   nav: false,
   mouseDrag: true,
-  items: 1,
+  items: 4,
   autoplay: true,
   autoHeight: true,
   controls: false,
@@ -20,19 +20,19 @@ const settings = {
   autoplayButtonOutput: false,
   responsive: {
     500: {
-      items: 2,
+      items: 4,
       gutter: 10,
     },
     768: {
-      items: 3,
+      items: 5,
       gutter: 15,
     },
     992: {
-      items: 4,
+      items: 7,
       gutter: 15,
     },
     1200: {
-      items: 5,
+      items: 10,
       gutter: 20,
     },
   },
@@ -41,14 +41,14 @@ const settings = {
 const BrandOne = () => {
   return (
     <section className="brand-style-one">
-      {bannerIcons.map((banner, index) => (
+      {/* {bannerIcons.map((banner, index) => (
         <Image
           key={index}
           src={require(`src/assets/images/${banner}`).default.src}
           alt="Awesome Image"
           className={`bubble-${index + 1}`}
         />
-      ))}
+      ))} */}
       <Container>
         <div className="brand-carousel-one owl-theme owl-carousel">
           <TinySlider settings={settings}>

@@ -22,9 +22,11 @@ const Layout = ({ children, pageTitle }) => {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
         <title>
-          {pageTitle} || Nonid || SEO & Software Landing Page NextJS Template
+          {pageTitle} || IXOYE CENTRO DE SERVICIOS Y REFACCIONES
         </title>
+        <link rel="icon" href="favicon.png" />
       </Head>
       <Preloader loading={loading} />
       <main

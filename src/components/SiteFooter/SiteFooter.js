@@ -22,7 +22,7 @@ const SiteFooter = () => {
       <div className="site-footer__bottom-footer text-center">
         <Container>
           <p>
-            &copy; copyright {year} by{" "}
+            &copy; Derechos reservados {year} by{" "}
             <a target="_blank" rel="noreferrer" href={`https://${website}`}>
               {website}
             </a>

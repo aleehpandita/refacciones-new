@@ -12,8 +12,8 @@ const ServiceOne = () => {
       <Container>
         <div className="block-title text-center">
           <div className="block-title__text">
-            <span>Nodin agency can boost</span> <br />{" "}
-            <span>up your web traffic</span>
+            <span>Obtén las refacciones indicadas </span><br />{" "}
+            <span>para reparar tu Lavadora y/o Secadora</span>
           </div>
         </div>
         <Row>
