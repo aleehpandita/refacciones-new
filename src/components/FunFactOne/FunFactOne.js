@@ -19,7 +19,7 @@ const FunFactOne = () => {
       <Container>
         <div className="block-title text-center">
           <div className="block-title__text">
-            <span>Over 2200 projects</span> <br /> <span>completed</span>
+            <span>Expertos en más de 25 </span> <br /> <span>marcas</span>
           </div>
         </div>
         <div className="fun-fact-one__box-wrapper">

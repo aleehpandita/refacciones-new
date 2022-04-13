@@ -1,5 +1,6 @@
 import logo from "@/images/logo-1-1.png";
 
+import whatsappLaundry from "@/data/whatsappLaundry";
 const bannerIcons = [
   "banner-icon-1-1.png",
   "banner-icon-1-3.png",
@@ -10,8 +11,8 @@ const bannerIcons = [
 const socialIcons = [
   {
     id: 1,
-    href: "#",
-    icon: "fa fa-twitter",
+    href: "https://g.page/r/CQ4Ixb_D0mOPEAE",
+    icon: "fa fa-google",
   },
   {
     id: 2,
@@ -20,13 +21,8 @@ const socialIcons = [
   },
   {
     id: 3,
-    href: "#",
-    icon: "fa fa-linkedin",
-  },
-  {
-    id: 4,
-    href: "#",
-    icon: "fa fa-youtube-play",
+    href: `${whatsappLaundry.href}`,
+    icon: "fa fa-whatsapp",
   },
 ];
 
@@ -46,67 +42,67 @@ const footerData = {
     },
     {
       id: 2,
-      title: "Our Team",
+      title: "Lavadoras",
       href: "#",
     },
     {
       id: 3,
-      title: "Features",
+      title: "Secadoras",
       href: "#",
     },
     {
       id: 4,
-      title: "Blog",
+      title: "Marcas",
       href: "#",
     },
     {
       id: 5,
-      title: "How It Works",
+      title: "Centro de Lavado",
       href: "#",
     },
   ],
   services: [
     {
       id: 1,
-      title: "Speed Optimization",
+      title: "Reparación",
       href: "#",
     },
     {
       id: 2,
-      title: "Marketing Analysis",
+      title: "Cambio de piezas",
       href: "#",
     },
     {
       id: 3,
-      title: "SEO and Backlinks",
+      title: "Servicio Técnico",
       href: "#",
     },
     {
       id: 4,
-      title: "Content Marketing",
+      title: "Mantenimiento",
       href: "#",
     },
   ],
   links: [
     {
       id: 1,
-      title: "Help",
-      href: "#",
+      title: "Ayuda",
+      href: "tel:529982421057",
     },
     {
       id: 2,
-      title: "Support",
-      href: "#",
+      title: "Servicio",
+      href: "tel:529982421057",
     },
     {
       id: 3,
-      title: "Clients",
-      href: "#",
+      title: "Refacciones",
+      href: "tel:529982421057",
     },
     {
       id: 4,
-      title: "Contact",
-      href: "#",
+      title: "Contacto",
+      href: "tel:529982421057",
     },
   ],
   socialIcons,

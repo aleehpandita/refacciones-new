@@ -1,40 +1,41 @@
 const pricingOne = [
   {
     id: 1,
-    price: "20.00",
-    pack: "basic pack",
-    note: "No hidden charges!",
+    price: "LAVADORA",
+    pack: "servicios y refacciones",
+    note: "Todas las marcas",
     features: [
-      "Extra features",
-      "Lifetime free support",
-      "Upgrade options",
-      "Full access",
+      "Refacciones Originales",
+      "Piezas Originales",
+      "Servicio Técnino",
+      "Mantenimiento",
     ],
   },
   {
     id: 2,
-    price: "30.00",
-    pack: "medium pack",
-    note: "No hidden charges!",
+    price: "SECADORA",
+    pack: "servicios y refacciones",
+    note: "Todas las marcas",
     features: [
-      "Extra features",
-      "Lifetime free support",
-      "Upgrade options",
-      "Full access",
+      "Refacciones Originales",
+      "Piezas Originales",
+      "Servicio Técnino",
+      "Mantenimiento",
     ],
   },
   {
     id: 3,
-    price: "40.00",
-    pack: "premium pack",
-    note: "No hidden charges!",
+    price: "CENTRO DE LAVADO",
+    pack: "servicios y refacciones",
+    note: "Todas las marcas",
     features: [
-      "Extra features",
-      "Lifetime free support",
-      "Upgrade options",
-      "Full access",
+      "Refacciones Originales",
+      "Piezas Originales",
+      "Servicio Técnino",
+      "Mantenimiento",
     ],
   },
+  
 ];
 
 export default pricingOne;

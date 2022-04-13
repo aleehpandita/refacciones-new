@@ -1,6 +1,7 @@
 import ctaThree from "@/data/ctaThree";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
+import whatsappLaundry from "@/data/whatsappLaundry";
 
 const { bannerIcons, mocImage, lists, description } = ctaThree;
 
@@ -26,8 +27,8 @@ const CtaThree = () => {
             <div className="cta-three__content my-auto">
               <div className="block-title">
                 <div className="block-title__text">
-                  <span>Powerful tools for your</span> <br />{" "}
-                  <span>customers</span>
+                  <span>Amplio surtido en refacciones</span> <br />{" "}
+                  <span> para su lavadora </span>
                 </div>
               </div>
               <p className="cta-three__text">{description}</p>
@@ -39,8 +40,8 @@ const CtaThree = () => {
                   </li>
                 ))}
               </ul>
-              <a href="#" className="cta-three__btn">
-                Learn More
+             <a href={whatsappLaundry.href} className="cta-three__btn">
+                Mas información
               </a>
             </div>
           </Col>

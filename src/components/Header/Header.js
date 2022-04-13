@@ -56,11 +56,11 @@ const Header = ({ pageTitle }) => {
               ))}
             </ul>
           </div>
-          {/* <div className="right-side-box">
+          <div className="right-side-box">
             <a href={rightBtn.href} className="header-one__btn">
               {rightBtn.title}
             </a>
-          </div> */}
+          </div>
         </Container>
       </Navbar>
     </header>

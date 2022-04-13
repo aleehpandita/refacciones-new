@@ -12,8 +12,8 @@ const PricingOne = () => {
       <Container>
         <div className="block-title text-center">
           <div className="block-title__text">
-            <span>Choose pricing plans which</span> <br />{" "}
-            <span>suits your needs</span>
+            <span>REFACCIONES</span> <br />{" "}
+            <span>PARA TODAS LAS MARCAS</span>
           </div>
         </div>
         <Row>

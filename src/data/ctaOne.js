@@ -1,11 +1,11 @@
 const ctaOne = {
   images: ["cta-1-1.png", "cta-1-2.png"],
   description:
-    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "Somos una empresa mexicana dedicada a la distribución de refacciones de lavadoras y secadoras para residencias y tambien industriales",
   lists: [
-    "Refresing to get such a personal touch.",
-    "Duis aute irure dolor in reprehenderit in voluptate.",
-    "Velit esse cillum dolore eu fugiat nulla pariatur.",
+    "Refacciones originales de todas las marcas",
+    "Servicio técnico en tu lavadora y secadora",
+    "Cambia tus piezas por refacciones originales.",
   ],
 };
 

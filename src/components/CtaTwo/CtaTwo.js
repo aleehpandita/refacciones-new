@@ -31,7 +31,7 @@ const CtaTwo = () => {
             <div className="cta-two__content">
               <div className="block-title">
                 <div className="block-title__text">
-                  <span>Discover more new</span> <br /> <span>features</span>
+                  <span>Compra tus refacciones</span> <br /> <span>originales</span>
                 </div>
               </div>
               <div className="cta-two__feature">
@@ -52,7 +52,7 @@ const CtaTwo = () => {
               </div>
               <p className="cta-two__text">{description}</p>
               <a href="#" className="cta-two__btn">
-                Learn More
+                WhatsApp
               </a>
             </div>
           </Col>

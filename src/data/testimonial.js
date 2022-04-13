@@ -5,24 +5,24 @@ const testimonial = {
   testimonials: [
     {
       id: 1,
-      image: "testi-1-1.png",
+      image: "testi-1-1.jpg",
       description:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      name: "Delila Rayam",
+        "Adquirir un centro de lavado puede llegar a ser muy caro, ahora imaginar cambiarlo por completo es algo muy dificil. Es por eso que las refacciones originales y de fabrica del centro IXOYE son tu mejor opción",
+      name: "Centro de Servicios y Refacciones",
     },
     {
       id: 2,
-      image: "testi-1-2.png",
+      image: "testi-1-2.jpg",
       description:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      name: "Terrilyn Werme",
+        "Tenemos refacciones de casi todas las piezas de mecanismo, y algunas otras de soporte de todas las marcas como Hisense, LG, GE, Maytag, Bosch, IEM, Miele, Samsung, Whirpool, Easy, Mabe, Daewoo, etc.",
+        name: "Centro de Servicios y Refacciones",
     },
     {
       id: 3,
-      image: "testi-1-3.png",
+      image: "testi-1-3.jpeg",
       description:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      name: "Kyle Demayo",
+        "Contamos con una gran variedad de piezas de diferentes marcas importantes en el mercado nacional y de Latinoamérica, así como refacciones y piezas universales de todo tipo",
+        name: "Centro de Servicios y Refacciones",
     },
   ],
 };

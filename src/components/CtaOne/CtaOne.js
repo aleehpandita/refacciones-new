@@ -1,7 +1,7 @@
 import ctaOne from "@/data/ctaOne";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-
+import whatsappLaundry from "@/data/whatsappLaundry";
 const { lists, description, images } = ctaOne;
 
 const CtaOne = () => {
@@ -38,8 +38,8 @@ const CtaOne = () => {
             <div className="cta-one__content my-auto">
               <div className="block-title">
                 <div className="block-title__text">
-                  <span>Marketing experts are</span> <br />{" "}
-                  <span>ready to help you</span>
+                  <span>IXOYE </span> <br />{" "}
+                  <span>Centro de Servicios y Refacciones</span>
                 </div>
               </div>
               <p className="cta-one__text">{description}</p>
@@ -51,8 +51,8 @@ const CtaOne = () => {
                   </li>
                 ))}
               </ul>
-              <a href="#" className="cta-one__btn">
-                Get Started
+              <a href={whatsappLaundry.href} className="cta-one__btn">
+                Comunicate con nosotros
               </a>
             </div>
           </Col>

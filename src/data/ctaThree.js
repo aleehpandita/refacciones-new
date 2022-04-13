@@ -1,4 +1,4 @@
-import mocImage from "@/images/cta-moc-1-1.png";
+import mocImage from "@/images/banner-moc-1.png";
 
 const ctaThree = {
   bannerIcons: [
@@ -8,11 +8,14 @@ const ctaThree = {
   ],
   mocImage,
   description:
-    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "Refacciones para su lavadora como: agitadores, bandas, bombas, motores, transmisiones y mas.",
   lists: [
-    "Refresing to get such a personal touch.",
-    "Duis aute irure dolor in reprehenderit in voluptate.",
-    "Velit esse cillum dolore eu fugiat nulla pariatur.",
+    "Lavadora de la marca Easy",
+    "Lavadora de la marca Mabe",
+    "Lavadora de la marca Samsung",
+    "Lavadora de la marca Maytag",
+    "Lavadora de la marca LG",
+    "Lavadora de la marca Daewoo",
   ],
 };
 export default ctaThree;

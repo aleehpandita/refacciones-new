@@ -31,7 +31,7 @@ const MainFooter = () => {
           </Col>
           <Col lg={2} md={6} sm={12}>
             <div className="footer-widget">
-              <h3 className="footer-widget__title">Explore</h3>
+              <h3 className="footer-widget__title">Refacciones</h3>
               <ul className="footer-widget__link-list">
                 {navItems.map(({ id, href, title }) => (
                   <li key={id}>
@@ -43,7 +43,7 @@ const MainFooter = () => {
           </Col>
           <Col lg={3} md={6} sm={12}>
             <div className="footer-widget">
-              <h3 className="footer-widget__title">Services</h3>
+              <h3 className="footer-widget__title">Servicios</h3>
               <ul className="footer-widget__link-list">
                 {services.map(({ id, href, title }) => (
                   <li key={id}>

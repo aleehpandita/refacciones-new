@@ -1,12 +1,13 @@
 import logo from "@/images/logo-1-1.png";
 import logo2 from "@/images/logo-2-1.png";
+import whatsappLaundry from "@/data/whatsappLaundry";
 
 const navbarData = {
   logo,
   logo2,
   rightBtn: {
     title: "Whatsapp",
-    href: "#",
+    href: `${whatsappLaundry.href}`,
   },
   navItems: [
     {
@@ -28,7 +29,7 @@ const navbarData = {
     },
     {
       id: 2,
-      title: "Venta",
+      title: "Refacciones",
       href: "#services",
     },
     {
@@ -40,12 +41,12 @@ const navbarData = {
       id: 4,
       title: "Marcas",
       href: "#pricing",
-    },
-    {
-      id: 4,
-      title: "Manda un Whatsapp",
-      href: "#",
-    },
+    }
+    // {
+    //   id: 4,
+    //   title: "Manda un Whatsapp",
+    //   href: `${whatsappLaundry.href}`,
+    // },
     // {
     //   id: 5,
     //   title: "Marcas",

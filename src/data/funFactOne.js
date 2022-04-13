@@ -9,22 +9,32 @@ const FunFactOne = {
     {
       id: 1,
       count: 4789,
-      title: "projects",
+      title: "Lavadora Mabe",
     },
     {
       id: 2,
       count: 6400,
-      title: "customers",
+      title: "Lavadora LG",
     },
     {
       id: 3,
       count: 960,
-      title: "success",
+      title: "Lavadora Easy",
     },
     {
       id: 4,
       count: 448,
-      title: "awards",
+      title: "Lavadora Samsung",
+    },
+    {
+      id: 5,
+      count: 448,
+      title: "Lavadora Maytag",
+    },
+    {
+      id: 6,
+      count: 448,
+      title: "Lavadora Midea",
     },
   ],
 };

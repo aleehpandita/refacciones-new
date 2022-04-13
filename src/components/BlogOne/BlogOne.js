@@ -12,8 +12,8 @@ const BlogOne = () => {
       <Container>
         <div className="block-title text-center">
           <div className="block-title__text">
-            <span>Check out our latest</span> <br />{" "}
-            <span>news & articles</span>
+            <span>Principales refacciones</span> <br />{" "}
+            <span>para centro de lavado</span>
           </div>
         </div>
         <Row>

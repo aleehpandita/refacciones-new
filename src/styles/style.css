@@ -1946,7 +1946,7 @@ hr.style-one {
 .pricing-one__title {
   margin: 0;
   color: #9364d4;
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 300;
   line-height: 1em;
 }
@@ -2250,8 +2250,8 @@ hr.style-one {
   background: transparent url(../assets/images/cta-bg-1-2.png) bottom center
     no-repeat;
   background-size: cover;
-  padding-bottom: 120px;
-  padding-top: 182px;
+  padding-bottom: 50px;
+  padding-top: 82px;
   position: relative;
 }
 .cta-three [class*="bubble-"] {
@@ -2285,7 +2285,7 @@ hr.style-one {
 }
 .cta-three__moc {
   position: absolute;
-  top: 50%;
+  top: 60%;
   -webkit-transform: translateY(-50%) translateX(-100px);
   transform: translateY(-50%) translateX(-100px);
   left: 0;

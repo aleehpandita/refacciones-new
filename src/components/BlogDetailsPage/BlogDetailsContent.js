@@ -13,7 +13,7 @@ const BlogDetailsContent = () => {
       </div>
       <div className="blog-details__meta">
         <a href="#" className="blog-details__meta-link">
-          By {author}
+          Marcas como {author}
         </a>
         <span className="blog-details__meta-sep">.</span>
         <a href="#" className="blog-details__meta-link">

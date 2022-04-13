@@ -1,6 +1,8 @@
 import React from "react";
 import { Col } from "react-bootstrap";
 
+import whatsappLaundry from "@/data/whatsappLaundry";
+
 const SinglePricing = ({ pricing = {} }) => {
   const { price, pack, note, features } = pricing;
 
@@ -8,7 +10,7 @@ const SinglePricing = ({ pricing = {} }) => {
     <Col lg={4}>
       <div className="pricing-one__single">
         <div className="pricing-one__top">
-          <h3 className="pricing-one__title">${price}</h3>
+          <h3 className="pricing-one__title">{price}</h3>
           <p className="pricing-one__pack">{pack}</p>
         </div>
         <ul className="pricing-one__feature">
@@ -18,8 +20,8 @@ const SinglePricing = ({ pricing = {} }) => {
             </li>
           ))}
         </ul>
-        <a href="#" className="pricing-one__btn">
-          Choose Plan
+        <a href={whatsappLaundry.href} className="pricing-one__btn">
+          Información
         </a>
         <p className="pricing-one__note">{note}</p>
       </div>

@@ -11,7 +11,7 @@ const SingleBlog = ({ blog = {} }) => {
         <div className="blog-one__single-inner-block">
           <div className="blog-one__date">{date}</div>
           <a href="blog-details.html" className="blog-one__author">
-            By {author}
+          Marcas como {author}
           </a>
           <h3 className="blog-one__title">
             <Link href="/blog-details">{title}</Link>

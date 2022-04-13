@@ -71,7 +71,7 @@ const TestimonialOne = () => {
           <Col lg={6}>
             <div className="block-title">
               <div className="block-title__text">
-                <span>What our clients are</span> <br /> <span>saying</span>
+                <span>La solución ideal</span> <br /> <span>para tu lavadora y secadora</span>
               </div>
             </div>
             <Swiper
