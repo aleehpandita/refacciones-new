@@ -39,7 +39,7 @@ const CtaOne = () => {
               <div className="block-title">
                 <div className="block-title__text">
                   <span>IXOYE </span> <br />{" "}
-                  <span>Centro de Servicios y Refacciones</span>
+                  <span>Centro de Servicio y Refacciones</span>
                 </div>
               </div>
               <p className="cta-one__text">{description}</p>

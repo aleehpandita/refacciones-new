@@ -1,4 +1,4 @@
-import testimonial from "@/data/testimonial";
+import testimonial from "@/data/pantallas/testimonial";
 import React, { useState } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import SwiperCore, {
@@ -59,7 +59,7 @@ const TestimonialOne = () => {
                           src={
                             require(`src/assets/images/${image}`).default.src
                           }
-                          alt="Awesome Image"
+                          alt="quepedo"
                         />
                       </a>
                     </SwiperSlide>
@@ -71,7 +71,7 @@ const TestimonialOne = () => {
           <Col lg={6}>
             <div className="block-title">
               <div className="block-title__text">
-                <span>La solución ideal</span> <br /> <span>para tu lavadora y secadora</span>
+                <span>La solución ideal</span> <br /> <span>para tu pantalla, plasma y/o televisor</span>
               </div>
             </div>
             <Swiper

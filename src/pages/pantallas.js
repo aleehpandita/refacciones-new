@@ -1,21 +1,21 @@
 import BannerOne from "@/components/pantallas/BannerOne/BannerOne";
-import BlogOne from "@/components/BlogOne/BlogOne";
-import BrandOne from "@/components/BrandOne/BrandOne";
-import BrandTwo from "@/components/BrandOne/BrandTwo";
-import CtaOne from "@/components/CtaOne/CtaOne";
-import CtaThree from "@/components/CtaThree/CtaThree";
-import CtaTwo from "@/components/CtaTwo/CtaTwo";
-import FunFactOne from "@/components/FunFactOne/FunFactOne";
-import Layout from "@/components/Layout/Layout";
-import PricingOne from "@/components/PricingOne/PricingOne";
-import ServiceOne from "@/components/ServiceOne/ServiceOne";
-import TestimonialOne from "@/components/TestimonialOne/TestimonialOne";
-import bannerOne from "@/data/bannerOne";
+import BlogOne from "@/components/pantallas/BlogOne/BlogOne";
+import BrandOne from "@/components/pantallas/BrandOne/BrandOne";
+import BrandTwo from "@/components/pantallas/BrandOne/BrandTwo";
+import CtaOne from "@/components/pantallas/CtaOne/CtaOne";
+import CtaThree from "@/components/pantallas/CtaThree/CtaThree";
+import CtaTwo from "@/components/pantallas/CtaTwo/CtaTwo";
+import FunFactOne from "@/components/pantallas/FunFactOne/FunFactOne";
+import Layout from "@/components/pantallas/Layout/Layout";
+import PricingOne from "@/components/pantallas/PricingOne/PricingOne";
+import ServiceOne from "@/components/pantallas/ServiceOne/ServiceOne";
+import TestimonialOne from "@/components/pantallas/TestimonialOne/TestimonialOne";
+import bannerOne from "@/data/pantallas/bannerOne";
 import React from "react";
 
 const Home = () => {
   return (
-    <Layout pageTitle="Refacciones">
+    <Layout pageTitle="Refacciones Pantallas">
       <BrandOne />
       <BrandTwo />
       <BannerOne bannerData={bannerOne} />

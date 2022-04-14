@@ -1,4 +1,4 @@
-import brandTwo from "@/data/brandTwo";
+import brandTwo from "@/data/pantallas/brandTwo";
 import dynamic from "next/dynamic";
 import React from "react";
 import { Container, Image } from "react-bootstrap";

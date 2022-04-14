@@ -1,4 +1,4 @@
-import ctaTwo from "@/data/ctaTwo";
+import ctaTwo from "@/data/pantallas/ctaTwo";
 import useActive from "@/hooks/useActive";
 import React, { Fragment } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";

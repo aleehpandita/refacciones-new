@@ -26,7 +26,7 @@ const Layout = ({ children, pageTitle }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         
         <title>
-          {pageTitle} || IXOYE CENTRO DE SERVICIOS Y REFACCIONES
+          {pageTitle} || IXOYE CENTRO DE SERVICIO Y REFACCIONES
         </title>
         <link rel="icon" href="favicon.png" />
       </Head>
@@ -44,7 +44,7 @@ const Layout = ({ children, pageTitle }) => {
         accountName="CENTRO IXOYE"
         allowClickAway
         notification
-        statusMessage="Servicios y Refacciones"
+        statusMessage="Servicio y Refacciones Pantallas"
         avatar="/favicon.png"
         notificationDelay={30000} // 1 minute
         notificationSound

@@ -1,7 +1,7 @@
 import useActive from "@/hooks/useActive";
 import React, { Fragment } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import whatsappLaundry from "@/data/whatsappLaundry";
+import whatsappLaundry from "@/data/pantallas/whatsappLaundry";
 
 const BannerOne = ({ bannerData = {}, className = "" }) => {
   const { bannerIcons, bannerMoc, title, description } = bannerData;

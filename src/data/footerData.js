@@ -30,7 +30,7 @@ const footerData = {
   bannerIcons,
   logo,
   year: new Date().getFullYear(),
-  website: "Refacciones y Servicios IXOYE",
+  website: "Refacciones y Servicio IXOYE",
   phone: "998 242 1057",
   email: "gpo.ixoye@gmail.com",
   address: "Av Xcaret, Mz. 2 Lote 2-03 \nPlaza Las Palmas Local A-1 y A-2, \n Supermanzana 36, 77505 \n Cancún, Q.R.",

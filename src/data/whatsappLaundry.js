@@ -1,7 +1,7 @@
 import bannerMoc from "@/images/banner-moc-1.png";
 
 const whatsappLaundry = {
-  title: "IXOYE CENTRO \nDE SERVICIOS \nY REFACCIONES",
+  title: "IXOYE CENTRO \nDE SERVICIO \nY REFACCIONES",
   href:
     "https://api.whatsapp.com/send?phone=529982421057&text=Hola!%20estoy%20interesado%20en%20la%20venta%20de%20refacciones%20de%20Lavadoras%20y%20Secadoras",
   bannerIcons: [

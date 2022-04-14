@@ -1,4 +1,4 @@
-import funFactOne from "@/data/funFactOne";
+import funFactOne from "@/data/pantallas/funFactOne";
 import React from "react";
 import { Container, Image } from "react-bootstrap";
 import SingleFunFact from "./SingleFunFact";

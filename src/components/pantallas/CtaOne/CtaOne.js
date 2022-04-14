@@ -1,7 +1,7 @@
-import ctaOne from "@/data/ctaOne";
+import ctaOne from "@/data/pantallas/ctaOne";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import whatsappLaundry from "@/data/whatsappLaundry";
+import whatsappLaundry from "@/data/pantallas/whatsappLaundry";
 const { lists, description, images } = ctaOne;
 
 const CtaOne = () => {
@@ -39,7 +39,7 @@ const CtaOne = () => {
               <div className="block-title">
                 <div className="block-title__text">
                   <span>IXOYE </span> <br />{" "}
-                  <span>Centro de Servicios y Refacciones</span>
+                  <span>Centro de Servicio y Refacciones</span>
                 </div>
               </div>
               <p className="cta-one__text">{description}</p>

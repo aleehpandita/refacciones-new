@@ -1,4 +1,4 @@
-import blogOne from "@/data/blogOne";
+import blogOne from "@/data/pantallas/blogOne";
 import useActive from "@/hooks/useActive";
 import React from "react";
 import { Container, Row } from "react-bootstrap";
@@ -13,7 +13,7 @@ const BlogOne = () => {
         <div className="block-title text-center">
           <div className="block-title__text">
             <span>Principales refacciones</span> <br />{" "}
-            <span>para centro de lavado</span>
+            <span>y respuestos para pantallas</span>
           </div>
         </div>
         <Row>

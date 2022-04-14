@@ -1,4 +1,4 @@
-import pricingOne from "@/data/pricingOne";
+import pricingOne from "@/data/pantallas/pricingOne";
 import useActive from "@/hooks/useActive";
 import React from "react";
 import { Container, Row } from "react-bootstrap";

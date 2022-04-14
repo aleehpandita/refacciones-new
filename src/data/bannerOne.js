@@ -1,7 +1,7 @@
 import bannerMoc from "@/images/banner-moc-1.png";
 
 const bannerOne = {
-  title: "IXOYE CENTRO \nDE SERVICIOS \nY REFACCIONES",
+  title: "IXOYE CENTRO \nDE SERVICIO \nY REFACCIONES",
   description:
     "Refacciones para las marcas más comerciales como: Mabe, Easy, General Electric, Whirlpool, Acros, Maytag, LG, Samsung, Frigidaire, Oster, Man, Philips, Black & Decker, Hamilton Beach, Moulinex, Presto, Ekco, Taurus, Singer, Cinsa, Kelvinator, Koblenz, Hoover, etc.",
   bannerIcons: [

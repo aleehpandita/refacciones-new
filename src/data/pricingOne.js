@@ -2,7 +2,7 @@ const pricingOne = [
   {
     id: 1,
     price: "LAVADORA",
-    pack: "servicios y refacciones",
+    pack: "servicio y refacciones",
     note: "Todas las marcas",
     features: [
       "Refacciones Originales",
@@ -14,7 +14,7 @@ const pricingOne = [
   {
     id: 2,
     price: "SECADORA",
-    pack: "servicios y refacciones",
+    pack: "servicio y refacciones",
     note: "Todas las marcas",
     features: [
       "Refacciones Originales",
@@ -26,7 +26,7 @@ const pricingOne = [
   {
     id: 3,
     price: "CENTRO DE LAVADO",
-    pack: "servicios y refacciones",
+    pack: "servicio y refacciones",
     note: "Todas las marcas",
     features: [
       "Refacciones Originales",

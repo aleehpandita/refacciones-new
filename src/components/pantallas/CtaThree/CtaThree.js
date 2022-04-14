@@ -1,7 +1,7 @@
-import ctaThree from "@/data/ctaThree";
+import ctaThree from "@/data/pantallas/ctaThree";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import whatsappLaundry from "@/data/whatsappLaundry";
+import whatsappLaundry from "@/data/pantallas/whatsappLaundry";
 
 const { bannerIcons, mocImage, lists, description } = ctaThree;
 
@@ -28,7 +28,7 @@ const CtaThree = () => {
               <div className="block-title">
                 <div className="block-title__text">
                   <span>Amplio surtido en refacciones</span> <br />{" "}
-                  <span> para su lavadora </span>
+                  <span> para su televisor</span>
                 </div>
               </div>
               <p className="cta-three__text">{description}</p>

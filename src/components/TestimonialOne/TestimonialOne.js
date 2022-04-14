@@ -59,7 +59,7 @@ const TestimonialOne = () => {
                           src={
                             require(`src/assets/images/${image}`).default.src
                           }
-                          alt="Awesome Image"
+                          alt='holi'
                         />
                       </a>
                     </SwiperSlide>
