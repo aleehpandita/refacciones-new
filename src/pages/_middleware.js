@@ -44,10 +44,10 @@ export default function middleware(req) {
             url.pathname = `/`;
             return NextResponse.rewrite(url);
         }else if (
-            hostname === "aire.localhost:3000" ||
-            hostname === "aire.refacciones.info"
+            hostname === "aire-y-refrigeradores.localhost:3000" ||
+            hostname === "aire-y-refrigeradores.refacciones.info"
         ) {
-            url.pathname = `/aire`;
+            url.pathname = `/aire-y-refrigeradores`;
             return NextResponse.rewrite(url);
         } else if (
             hostname === "pantallas.localhost:3000" ||
@@ -56,10 +56,10 @@ export default function middleware(req) {
             url.pathname = `/pantallas`;
             return NextResponse.rewrite(url);
         }else if (
-            hostname === "boilers.localhost:3000" ||
-            hostname === "boilers.refacciones.info"
+            hostname === "boilers-bombas-hidroneumaticos.localhost:3000" ||
+            hostname === "boilers-bombas-hidroneumaticos.refacciones.info"
         ) {
-            url.pathname = `/boilers`;
+            url.pathname = `/boilers-bombas-hidroneumaticos`;
             return NextResponse.rewrite(url);
         }else if (
             hostname === "plomero.localhost:3000" ||
@@ -86,16 +86,16 @@ export default function middleware(req) {
             url.pathname = `/bombas`;
             return NextResponse.rewrite(url);
         } else if (
-            hostname === "electricista.localhost:3000" ||
-            hostname === "electricista.refacciones.info"
+            hostname === "secadoras.localhost:3000" ||
+            hostname === "secadoras.refacciones.info"
         ) {
-            url.pathname = `/electricista`;
+            url.pathname = `/secadoras`;
             return NextResponse.rewrite(url);
         } else if (
-            hostname === "herrero.localhost:3000" ||
-            hostname === "herrero.refacciones.info"
+            hostname === "lavadoras.localhost:3000" ||
+            hostname === "lavadoras.refacciones.info"
         ) {
-            url.pathname = `/herrero`;
+            url.pathname = `/`;
             return NextResponse.rewrite(url);
         } else {
             url.pathname = `/`;
