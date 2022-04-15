@@ -1,4 +1,4 @@
-import serviceOne from "@/data/serviceOne";
+import serviceOne from "@/data/bombas/serviceOne";
 import useActive from "@/hooks/useActive";
 import React from "react";
 import { Container, Row } from "react-bootstrap";

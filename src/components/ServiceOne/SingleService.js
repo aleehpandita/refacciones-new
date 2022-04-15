@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import whatsappLaundry from "@/data/whatsappLaundry";
+import whatsappLaundry from "@/data/bombas/whatsappLaundry";
 
 const SingleService = ({ service = {} }) => {
   const { title, description, icon } = service;
