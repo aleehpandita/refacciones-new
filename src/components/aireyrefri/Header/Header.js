@@ -1,5 +1,5 @@
 import { useRootContext } from "@/context/context";
-import navbarData from "@/data/aireyrefri/navbarData";
+import navbarData from "@/data/navbarData";
 import useScroll from "@/hooks/useScroll";
 import Link from "next/link";
 import React from "react";
@@ -15,7 +15,7 @@ const Header = ({ pageTitle }) => {
   return (
     <header
       className={`site-header header-one${
-        pageTitle === "Refacciones Bombas, Hidros y Boilers" ? "" : " header-one__home-two"
+        pageTitle === "Refacciones A/C y Refrigeradores" ? "" : " header-one__home-two"
       }`}
     >
       <Navbar
@@ -32,7 +32,7 @@ const Header = ({ pageTitle }) => {
             <Link href="/" passHref>
               <Navbar.Brand>
                 <Image
-                  src={pageTitle === "Refacciones Bombas, Hidros y Boilers" ? logo.src : logo2.src}
+                  src={pageTitle === "Refacciones A/C y Refrigeradores" ? logo.src : logo2.src}
                   className="main-logo"
                   alt="refacciones"
                 />

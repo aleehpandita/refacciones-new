@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
 import Header from "../Header/Header";
 import Preloader from "../Preloader/Preloader";
-import SiteFooter from "../SiteFooter/SiteFooter";
+import SiteFooter from "pantallas/SiteFooter/SiteFooter";
 import FloatingWhatsApp from 'react-floating-whatsapp'
 
 const Layout = ({ children, pageTitle }) => {

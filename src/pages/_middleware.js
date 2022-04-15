@@ -49,6 +49,18 @@ export default function middleware(req) {
         ) {
             url.pathname = `/aire-y-refrigeradores`;
             return NextResponse.rewrite(url);
+        }else if (
+            hostname === "aire-acondicionado.localhost:3000" ||
+            hostname === "aire-acondicionado.refacciones.info"
+        ) {
+            url.pathname = `/aire-y-refrigeradores`;
+            return NextResponse.rewrite(url);
+        }else if (
+            hostname === "refrigerador.localhost:3000" ||
+            hostname === "refrigerador.refacciones.info"
+        ) {
+            url.pathname = `/aire-y-refrigeradores`;
+            return NextResponse.rewrite(url);
         } else if (
             hostname === "pantallas.localhost:3000" ||
             hostname === "pantallas.refacciones.info"
@@ -58,6 +70,12 @@ export default function middleware(req) {
         }else if (
             hostname === "boilers-bombas-hidroneumaticos.localhost:3000" ||
             hostname === "boilers-bombas-hidroneumaticos.refacciones.info"
+        ) {
+            url.pathname = `/boilers-bombas-hidroneumaticos`;
+            return NextResponse.rewrite(url);
+        }else if (
+            hostname === "boilers.localhost:3000" ||
+            hostname === "boilers.refacciones.info"
         ) {
             url.pathname = `/boilers-bombas-hidroneumaticos`;
             return NextResponse.rewrite(url);
@@ -77,19 +95,19 @@ export default function middleware(req) {
             hostname === "refrigeradores.localhost:3000" ||
             hostname === "refrigeradores.refacciones.info"
         ) {
-            url.pathname = `/refrigeradores`;
+            url.pathname = `/aire-y-refrigeradores`;
             return NextResponse.rewrite(url);
         } else if (
             hostname === "bombas.localhost:3000" ||
             hostname === "bombas.refacciones.info"
         ) {
-            url.pathname = `/bombas`;
+            url.pathname = `/boilers-bombas-hidroneumaticos`;
             return NextResponse.rewrite(url);
         } else if (
             hostname === "secadoras.localhost:3000" ||
             hostname === "secadoras.refacciones.info"
         ) {
-            url.pathname = `/secadoras`;
+            url.pathname = `/`;
             return NextResponse.rewrite(url);
         } else if (
             hostname === "lavadoras.localhost:3000" ||

@@ -15,7 +15,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <Layout pageTitle="Refacciones Pantallas">
+    <Layout pageTitle="Refacciones Bombas, Hidros y Boilers">
       <BrandOne />
       <BrandTwo />
       <BannerOne bannerData={bannerOne} />

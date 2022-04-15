@@ -1,21 +1,21 @@
-import BannerOne from "@/components/pantallas/BannerOne/BannerOne";
-import BlogOne from "@/components/pantallas/BlogOne/BlogOne";
-import BrandOne from "@/components/pantallas/BrandOne/BrandOne";
-import BrandTwo from "@/components/pantallas/BrandOne/BrandTwo";
-import CtaOne from "@/components/pantallas/CtaOne/CtaOne";
-import CtaThree from "@/components/pantallas/CtaThree/CtaThree";
-import CtaTwo from "@/components/pantallas/CtaTwo/CtaTwo";
-import FunFactOne from "@/components/pantallas/FunFactOne/FunFactOne";
-import Layout from "@/components/pantallas/Layout/Layout";
-import PricingOne from "@/components/pantallas/PricingOne/PricingOne";
-import ServiceOne from "@/components/pantallas/ServiceOne/ServiceOne";
-import TestimonialOne from "@/components/pantallas/TestimonialOne/TestimonialOne";
-import bannerOne from "@/data/pantallas/bannerOne";
+import BannerOne from "@/components/aireyrefri/BannerOne/BannerOne";
+import BlogOne from "@/components/aireyrefri/BlogOne/BlogOne";
+import BrandOne from "@/components/aireyrefri/BrandOne/BrandOne";
+import BrandTwo from "@/components/aireyrefri/BrandOne/BrandTwo";
+import CtaOne from "@/components/aireyrefri/CtaOne/CtaOne";
+import CtaThree from "@/components/aireyrefri/CtaThree/CtaThree";
+import CtaTwo from "@/components/aireyrefri/CtaTwo/CtaTwo";
+import FunFactOne from "@/components/aireyrefri/FunFactOne/FunFactOne";
+import Layout from "@/components/aireyrefri/Layout/Layout";
+import PricingOne from "@/components/aireyrefri/PricingOne/PricingOne";
+import ServiceOne from "@/components/aireyrefri/ServiceOne/ServiceOne";
+import TestimonialOne from "@/components/aireyrefri/TestimonialOne/TestimonialOne";
+import bannerOne from "@/data/aireyrefri/bannerOne";
 import React from "react";
 
 const Home = () => {
   return (
-    <Layout pageTitle="Refacciones Pantallas">
+    <Layout pageTitle="Refacciones A/C y Refrigeradores">
       <BrandOne />
       <BrandTwo />
       <BannerOne bannerData={bannerOne} />
