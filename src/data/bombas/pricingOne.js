@@ -1,7 +1,7 @@
 const pricingOne = [
   {
     id: 1,
-    price: "Refrigerador Dúplex",
+    price: "Calentador de Paso",
     pack: "servicio y refacciones",
     note: "Todas las marcas",
     features: [
@@ -13,7 +13,7 @@ const pricingOne = [
   },
   {
     id: 2,
-    price: "Refrigerador Compacto",
+    price: "Boiler de Gas",
     pack: "servicio y refacciones",
     note: "Todas las marcas",
     features: [
@@ -25,7 +25,7 @@ const pricingOne = [
   },
   {
     id: 3,
-    price: "Aire Acondicionado Inverter",
+    price: "Bombas e hidroneumaticos",
     pack: "servicio y refacciones",
     note: "Todas las marcas",
     features: [

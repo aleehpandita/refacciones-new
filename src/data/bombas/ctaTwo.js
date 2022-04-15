@@ -1,4 +1,4 @@
-import mocImage from "@/images/aireyrefri/banner-moc-1.png";
+import mocImage from "@/images/bombas/banner-moc-1.png";
 
 const ctaTwo = {
   bannerIcons: [
@@ -8,7 +8,7 @@ const ctaTwo = {
   ],
   mocImage,
   description:
-    "En IXOYE contamos con todo tipo de refacciones para aire acondicionado, desde refacciones para equipos de aire acondicionado de ventana, refacciones para equipos portátiles o refacciones para minisplits, hasta refacciones de equipos de paquetes de aire acondicionado, equipos divididos, equipos industriales tipo fan and coil y chillers.",
+    "En IXOYE contamos con todo tipo de refacciones para boilers, calentadores de paso, bombas e hidroneumaticos. Tenemos refacciones como valvulas de gas, ajustador del flujo de agua, bobinas, termostrato, sensor de la flama, conectores y mas.",
   features: [
     {
       id: 1,

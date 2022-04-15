@@ -1,4 +1,4 @@
-import testimonial from "@/data/aireyrefri/testimonial";
+import testimonial from "@/data/bombas/testimonial";
 import React, { useState } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import SwiperCore, {
@@ -71,7 +71,7 @@ const TestimonialOne = () => {
           <Col lg={6}>
             <div className="block-title">
               <div className="block-title__text">
-                <span>La solución ideal</span> <br /> <span>para tu Aire Acondicionado y tambien para tu Refrigerador</span>
+                <span>La solución ideal</span> <br /> <span>para tu Boiler, Calentador, Bombas e Hidroneumaticos</span>
               </div>
             </div>
             <Swiper

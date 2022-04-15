@@ -1,4 +1,4 @@
-import brandOne from "@/data/aireyrefri/brandOne";
+import brandOne from "@/data/bombas/brandOne";
 import dynamic from "next/dynamic";
 import React from "react";
 import { Container, Image } from "react-bootstrap";

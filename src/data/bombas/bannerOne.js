@@ -3,7 +3,7 @@ import bannerMoc from "@/images/bombas/banner-moc-1.png";
 const bannerOne = {
   title: "IXOYE CENTRO \nDE SERVICIO \nY REFACCIONES",
   description:
-    "Te ofrecemos el más extenso surtido en refacciones nuevas y originales para refrigeradores y aire acondicionado de las siguientes marcas: LG, SAMSUNG, MIDEA, DAEWOO, HISENSE, MITSUBISHI, MABE, MAYTAG, FRIGIDAIRE, MIRAGE, PANASONIC y más.",
+    "Te ofrecemos el más extenso surtido en refacciones nuevas y originales para boilers, bombas e hidroneumaticos de las siguientes marcas: MAGAMEX, CALOREX, FOSET, ALTAMIRA, ROTOPLAS, TRUPER, PEDROLLO, BOSCH, MUNICH, MIRAGE, IUSA y más.",
   bannerIcons: [
     "banner-icon-1-1.png",
     "bombas/banner-icon-1-3.png",

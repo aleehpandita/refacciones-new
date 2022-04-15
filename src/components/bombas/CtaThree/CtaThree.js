@@ -28,7 +28,7 @@ const CtaThree = () => {
               <div className="block-title">
                 <div className="block-title__text">
                   <span>Amplio surtido en refacciones</span> <br />{" "}
-                  <span> para su refrigerador, congelador y A/C </span>
+                  <span> para su calentador, boilers, bombas e Hidroneumaticos</span>
                 </div>
               </div>
               <p className="cta-three__text">{description}</p>

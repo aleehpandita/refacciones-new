@@ -37,27 +37,22 @@ const footerData = {
   navItems: [
     {
       id: 1,
-      title: "Refrigerador",
+      title: "Boiler",
       href: "tel:529982421057",
     },
     {
       id: 2,
-      title: "Congelador",
+      title: "Calentador",
       href: "tel:529982421057",
     },
     {
       id: 3,
-      title: "Inverter",
+      title: "Bombas",
       href: "tel:529982421057",
     },
     {
       id: 4,
-      title: "MiniSplit",
-      href: "tel:529982421057",
-    },
-    {
-      id: 5,
-      title: "Split",
+      title: "Hidroneumaticos",
       href: "tel:529982421057",
     },
   ],
@@ -79,7 +74,7 @@ const footerData = {
     },
     {
       id: 4,
-      title: "Cambio de placa",
+      title: "Cambio de Valvula",
       href: "tel:529982421057",
     },
   ],

@@ -9,32 +9,27 @@ const FunFactOne = {
     {
       id: 1,
       count: 4789,
-      title: "Refrigeragor Duplex",
+      title: "Calentador de Gas",
     },
     {
       id: 2,
       count: 6400,
-      title: "Congelador Superior",
+      title: "Boiler de Paso",
     },
     {
       id: 3,
       count: 960,
-      title: "Congelador Inferior",
+      title: "Bombas de Agua",
     },
     {
       id: 4,
       count: 448,
-      title: "A/C Inverter",
+      title: "Boiler Cilindro",
     },
     {
       id: 5,
       count: 448,
-      title: "A/C Split",
-    },
-    {
-      id: 6,
-      count: 448,
-      title: "A/C Minisplit",
+      title: "Hidroneumaticos",
     },
   ],
 };

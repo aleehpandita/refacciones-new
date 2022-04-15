@@ -1,7 +1,7 @@
 import ctaOne from "@/data/bombas/ctaOne";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import whatsappLaundry from "@/data/aireyrefri/whatsappLaundry";
+import whatsappLaundry from "@/data/bombas/whatsappLaundry";
 const { lists, description, images } = ctaOne;
 
 const CtaOne = () => {

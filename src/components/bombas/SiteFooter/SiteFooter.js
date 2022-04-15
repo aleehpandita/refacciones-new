@@ -1,4 +1,4 @@
-import footerData from "@/data/footerData";
+import footerData from "@/data/bombas/footerData";
 import React from "react";
 import { Container, Image } from "react-bootstrap";
 import MainFooter from "./MainFooter";

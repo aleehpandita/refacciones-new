@@ -1,4 +1,4 @@
-import pricingOne from "@/data/aireyrefri/pricingOne";
+import pricingOne from "@/data/bombas/pricingOne";
 import useActive from "@/hooks/useActive";
 import React from "react";
 import { Container, Row } from "react-bootstrap";

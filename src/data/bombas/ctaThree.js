@@ -8,17 +8,17 @@ const ctaThree = {
   ],
   mocImage,
   description:
-    "Refacciones y reparación de aire acondicionado y venta de piezas del motor para refrigerador, Fuente de alimentacion, accesorios para todas las marcas como MIRAGE, CARRIER, SAMSUNG, LG, MABE, DAEWOO, MITSUBISHU ELECTRONIC, HISENSE, PANASONIC, CARRIER, YORK, ZMARTECH,  PHILLIPS Y MAS",
+    "En IXOYE damos servicios y refacciones como sistema de  gas, de agua y el sistema eléctrico, este último se compone del interruptor, valvula de gas, modulo de encendido y la caja de pilas que es requerido para realizar la ignición y corriente al sistema eléctrico del equipo.",
   lists: [
-    "Refrigerador de la marca Mabe",
-    "A/C de la marca Mirage",
-    "Refrigerador  de la marca Samsung",
-    "A/C  de la marca York",
-    "Refrigerador  de la marca LG",
-    "A/C  de la marca Carrier",
-    "Refrigedor  de la marca Tororey",
-    "A/C  de la marca Hisense",
-    "Refrigerador  de la marca Whirpool",
+    "Boilers de la marca Magamex",
+    "Bombas de la marca Truper",
+    "Boilers  de la marca Munich",
+    "Bombas  de la marca Rotoplas",
+    "Boilers  de la marca LG",
+    "Bombas  de la marca Evans",
+    "Boilers  de la marca Mirage",
+    "Bombas  de la marca Pedrollo",
+    "Boilers  de la marca Cinsa",
   ],
 };
 export default ctaThree;

@@ -1,4 +1,4 @@
-import footerData from "@/data/aireyrefri/footerData";
+import footerData from "@/data/bombas/footerData";
 import Link from "next/link";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
