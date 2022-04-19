@@ -15,7 +15,7 @@ const Header = ({ pageTitle }) => {
   return (
     <header
       className={`site-header header-one${
-        pageTitle === "Refacciones Bombas, Hidros y Boilers" ? "" : " header-one__home-two"
+        pageTitle === "Refacciones Pantallas" ? "" : " header-one__home-two"
       }`}
     >
       <Navbar
@@ -32,7 +32,7 @@ const Header = ({ pageTitle }) => {
             <Link href="/" passHref>
               <Navbar.Brand>
                 <Image
-                  src={pageTitle === "Refacciones Bombas, Hidros y Boilers" ? logo.src : logo2.src}
+                  src={pageTitle === "Refacciones Pantallas" ? logo.src : logo2.src}
                   className="main-logo"
                   alt="refacciones"
                 />
