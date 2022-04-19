@@ -52,6 +52,17 @@ const Layout = ({ children, pageTitle }) => {
         chatMessage='Hola!!! 🤝 Que tipo de refaccion o servicio necesitas?'
          />
       </main>
+      <Link
+          
+          href="tel:9982421057"
+          // smooth={true}
+          // duration={500}
+          id="backToTop"
+          style={{ cursor: "pointer" }}
+          passHref
+        >
+          <a href="tel:9982421057" target="_blank" rel="noreferrer" className="scroll-to-target scroll-to-top d-inline-block fadeIn animated"><i className="fa fa-phone"></i> </a>
+        </Link>
       
  </>     
 )};

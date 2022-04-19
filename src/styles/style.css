@@ -38,6 +38,34 @@ a:visited {
   text-decoration: none;
 }
 
+.wrapper {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000
+}
+
+.wrapper a:nth-child(1) {
+  background-color: green
+}
+
+.wrapper a:nth-child(2) {
+  background-color: blue
+}
+
+.wrapper a:nth-child(3) {
+  background-color: purple
+}
+
+.wrapper a:nth-child(4) {
+  animation: 0.7s ease-out 0s 1 FadeIn;
+  transition: all 0.3s
+}
+
+.wrapper a:hover:nth-child(4) {
+  background-color: red
+}
+
 .page-wrapper {
   position: relative;
   margin: 0 auto;
@@ -166,7 +194,7 @@ hr.style-one {
   height: 45px;
   background: #ff8257;
   position: fixed;
-  bottom: 40px;
+  bottom: 110px;
   right: 40px;
   z-index: 99;
   text-align: center;

@@ -1,14 +1,13 @@
 import { useRootContext } from "@/context/context";
 import useScroll from "@/hooks/useScroll";
 import Head from "next/head";
-import React, { useEffect, useState } from "react";
-import Link from "next/link";
+import React, { useEffect, useState }  from "react";
 import { Link as ScrollLink } from "react-scroll";
 import Header from "../Header/Header";
 import Preloader from "../Preloader/Preloader";
 import SiteFooter from "../SiteFooter/SiteFooter";
-import FloatingWhatsApp from 'react-floating-whatsapp'
-
+import FloatingWhatsApp from 'react-floating-whatsapp';
+import Link from 'next/link';
 const Layout = ({ children, pageTitle }) => {
   const [loading, setLoading] = useState(true);
   const { menuStatus } = useRootContext();
@@ -51,7 +50,18 @@ const Layout = ({ children, pageTitle }) => {
         placeholder="Escribe tu mensaje"
         chatMessage='Hola!!! 🤝 Que tipo de refaccion o servicio necesitas?'
          />
+
       </main>
+        <Link
+          href="tel:9982421057"
+          // smooth={true}
+          // duration={500}
+          id="backToTop"
+          style={{ cursor: "pointer" }}
+          passHref
+        >
+          <a href="tel:9982421057" target="_blank" rel="noreferrer" className="scroll-to-target scroll-to-top d-inline-block fadeIn animated"><i className="fa fa-phone"></i> </a>
+        </Link>
       
  </>     
 )};
