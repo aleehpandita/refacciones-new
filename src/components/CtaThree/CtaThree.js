@@ -8,14 +8,14 @@ const { bannerIcons, mocImage, lists, description } = ctaThree;
 const CtaThree = () => {
   return (
     <section className="cta-three">
-      {bannerIcons.map((banner, index) => (
+      {/* {bannerIcons.map((banner, index) => (
         <Image
           key={index}
           src={require(`src/assets/images/${banner}`).default.src}
           alt="Awesome Image"
           className={`bubble-${index + 1}`}
         />
-      ))}
+      ))} */}
       <Container>
         <Image
           src={mocImage.src}

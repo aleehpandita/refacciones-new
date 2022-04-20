@@ -9,14 +9,14 @@ const { bannerIcons, year, website } = footerData;
 const SiteFooter = () => {
   return (
     <footer className="site-footer">
-      {bannerIcons.map((icon, index) => (
+      {/* {bannerIcons.map((icon, index) => (
         <Image
           key={index}
           src={require(`src/assets/images/${icon}`).default.src}
           alt="Awesome Image"
           className={`bubble-${index + 1}`}
         />
-      ))}
+      ))} */}
       <Subscribe />
       <MainFooter />
       <div className="site-footer__bottom-footer text-center">

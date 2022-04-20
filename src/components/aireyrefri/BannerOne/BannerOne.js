@@ -10,14 +10,14 @@ const BannerOne = ({ bannerData = {}, className = "" }) => {
 
   return (
     <section ref={ref} className={`banner-one ${className}`} id="home">
-      {bannerIcons?.map((banner, index) => (
+      {/* {bannerIcons?.map((banner, index) => (
         <Image
           key={index}
           src={require(`src/assets/images/${banner}`).default.src}
           alt="Awesome Image"
           className={`bubble-${index + 1}`}
         />
-      ))}
+      ))} */}
       <Image
         src={bannerMoc.src}
         className="banner-one__moc"
@@ -45,7 +45,7 @@ const BannerOne = ({ bannerData = {}, className = "" }) => {
                 ))}
               </p>
               <a href={whatsappLaundry.href} className="banner-one__btn">
-              <i className="fa fa-whatsapp"> </i>  Mandanos un Whatsapp
+              <i className="fa fa-whatsapp"> </i>Llamanos al 998 242 1057
               </a>
             </div>
           </Col>

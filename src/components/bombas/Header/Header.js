@@ -58,7 +58,7 @@ const Header = ({ pageTitle }) => {
           </div>
           <div className="right-side-box">
             <a href={rightBtn.href} className="header-one__btn">
-            <i className="fa fa-whatsapp"> </i>
+            <i className="fa fa-whatsapp"> </i>9982421057
             </a>
           </div>
         </Container>

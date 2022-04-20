@@ -6,7 +6,7 @@ const navbarData = {
   logo,
   logo2,
   rightBtn: {
-    title: ``,
+    title: `998 242 1057`,
     href: `${whatsappLaundry.href}`,
   },
   navItems: [
@@ -39,8 +39,8 @@ const navbarData = {
     },
     {
       id: 4,
-      title: "Marcas",
-      href: "#pricing",
+      title: "998 242 1057",
+      href: "tel:9982421057",
     }
     // {
     //   id: 4,

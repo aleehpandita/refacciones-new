@@ -10,14 +10,14 @@ const CtaTwo = () => {
 
   return (
     <section ref={ref} className="cta-two" id="screens">
-      {bannerIcons.map((banner, index) => (
+      {/* {bannerIcons.map((banner, index) => (
         <Image
           key={index}
           src={require(`src/assets/images/${banner}`).default.src}
           alt="Awesome Image"
           className={`bubble-${index + 1}`}
         />
-      ))}
+      ))} */}
       <Image
         src={mocImage.src}
         alt="Awesome Image"

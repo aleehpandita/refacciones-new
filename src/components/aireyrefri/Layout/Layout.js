@@ -61,7 +61,7 @@ const Layout = ({ children, pageTitle }) => {
           style={{ cursor: "pointer" }}
           passHref
         >
-          <a href="tel:9982421057" target="_blank" rel="noreferrer" className="scroll-to-target scroll-to-top d-inline-block fadeIn animated"><i className="fa fa-phone"></i> </a>
+          <a href="tel:9982421057" target="_blank" rel="noreferrer" className="scroll-to-target scroll-to-top d-inline-block fadeIn animated"><i className="fa fa-phone"> </i> </a>
         </Link>
       
  </>     
